@@ -30,7 +30,7 @@ function getInputData() {
 
 function validationName(el1, el2, el3) {
 	if (el1.value.trim() && el2.value.trim() &&
-		el3.value.length === 11 && (el3.value / 2)) {
+		el3.value.length === 11) {
 		result = "true"
 		console.log(result)
 	} else {
